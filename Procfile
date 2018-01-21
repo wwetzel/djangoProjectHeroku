@@ -1,1 +1,1 @@
-web: gunicorn djangoProjectHeroku.wsgi --log-file -
+web: gunicorn willie-wetz-django-blog.wsgi --log-file -
