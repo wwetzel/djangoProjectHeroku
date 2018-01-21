@@ -33,7 +33,9 @@ DEBUG = False
 
 try:
     from .local_settings import *
+    print('You must be local')
 except ImportError:
+    print('You must be online')
     pass
 
 # Application definition
